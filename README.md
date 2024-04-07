@@ -16,7 +16,7 @@ After reseraching on StackOverflow posts, I found the culprit: The Magnus effect
 
 I did not have the sufficient spin data to simulate this in Unity, so I ended up stumbling on a solution using a method I learned from Intro to Numerical Analysis, known as iterative approximation. Since I knew where the ball's true ending location, I first calculated the ball's ending location using the data provided. I took the vector difference between these two locations, then added that vector to the ball's initial acceleration. When I calculated the ball's ending location using this modified acceleration, the ball's new ending location was slightly closer to its true ending location. 
 
-I repeated adding the vector difference to the ball's initial acceleration and re-calcuating its ending location, around a total of 500 times, until the ball's ending location was within millimeters of its true ending location. This new calculation of acceleration results in a pretty close approximation of the ball's actual trajectory.
+I repeatedly added the vector difference to the ball's initial acceleration and re-calcuating its ending location, around a total of 500 times, until the ball's ending location was within millimeters of its true ending location. This new calculation of acceleration results in a pretty close approximation of the ball's actual trajectory.
 
 
 ## Running the program
