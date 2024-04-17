@@ -6,7 +6,7 @@
 
 
 ## Overview
-This programs uses Python to make API calls to [https://statsapi.mlb.com](https://statsapi.mlb.com) to allow a user to select a specific pitch thrown in a specific game within the last 8 years. It calls a [Unity](https://unity.com) application to simulate the specific pitch-- The velocity, location, curvature, etc. of the simulated ball are the same as of the real-life pitch.
+This program uses Python to make API calls to [https://statsapi.mlb.com](https://statsapi.mlb.com) to allow a user to select a specific pitch thrown in a specific game within the last 8 years. It calls a [Unity](https://unity.com) application to simulate the specific pitch-- The velocity, location, curvature, etc. of the simulated ball are the same as of the real-life pitch.
 
 ## Challenges
 The first major challenge was navigating the API as little public documentation was available on the query parameters and meaning of the data. 
